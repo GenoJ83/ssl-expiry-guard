@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ssl-expiry-guard"
+version = "0.1.0"
+description = "TLS/SSL certificate monitor and expiry alert dispatcher"
+authors = [{ name = "Geno Joshua" }]
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
